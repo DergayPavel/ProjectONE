@@ -1,0 +1,132 @@
+.main{
+    background-image: url("../icon/mainBG.png");
+    width: 100%;
+    height: 1026px;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content:space-around;
+}
+.main__block{
+    height: 600px;
+
+    display: flex;
+    justify-content:space-around;
+    align-content: center;
+}
+
+.main__block_left{
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+}
+
+.main__block_left_logo{
+    width: 270px;
+
+}
+
+.main__block_left_name{
+    height: 168px;
+    width: 670px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.main__block_left_line{
+
+    margin-top: 55px;
+    height: 0px;
+    width: 170px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.main__block_left_text{
+    margin-top: 42px;
+
+    height: 42px;
+    width: 270px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.main__block_left_button{
+    height: 58px;
+    width: 270px;
+    margin-top: 50px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+
+
+}
+
+.main__block_right{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    align-content: space-between;
+}
+
+.main__block_right_name{
+    height: 90px;
+    width: 367px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #333333;
+
+
+}
+
+.main__block_right_block{
+
+}
+
+.main__block_right_block_Message{
+
+}
+.main__block_right_button{
+}
