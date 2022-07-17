@@ -27,8 +27,7 @@
     height: 150px;
     font-family: 'Raleway';
     font-size: 36px;
-    /* align-items: center; */
-    /* flex-direction: column; */
+
 
 
     border-bottom: 1px solid #EC7979;
@@ -42,8 +41,7 @@
     line-height: 21px;
 
     display: flex;
-    /* align-items: center; */
-    /* text-align: center; */
+
 
     color: #86878B;
 
