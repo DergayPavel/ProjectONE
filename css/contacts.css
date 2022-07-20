@@ -1,5 +1,5 @@
 .contacts{
-    height: 800px;
+    height: 700px;
     width: 100%;
 
     display: flex;
@@ -67,4 +67,10 @@
 
     color: #FFFFFF;
     
+}
+.blocfortext{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

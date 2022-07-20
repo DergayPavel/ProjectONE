@@ -1,13 +1,19 @@
 .main{
-    background-image: url("../icon/mainBG.png");
     width: 100%;
     height: 1026px;
     background-size: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);   
+    
     align-items: center;
     align-content: center;
     display: flex;
     justify-content:space-around;
+}
+.BG{
+    background: url("../icon/mainBG.png") no-repeat; 
+    opacity: .8;
+    background-size: 100%;
+
 }
 .main__block{
     height: 600px;
@@ -96,15 +102,17 @@
     display: flex;
     flex-direction: column;
     width: 470px;
+
     background: #FFFFFF;
     border-radius: 10px;
+    height: 500px;
 
-    align-content: space-between;
+    justify-content: space-between;
 }
 
 .main__block_right_name{
     height: 90px;
-    width: 367px;
+    width: 470px;
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -114,19 +122,48 @@
     display: flex;
     align-items: center;
     text-align: center;
-    text-transform: uppercase;
+    justify-content:center;
+    align-content: center;
 
-    color: #333333;
-
+    color: #333233;
 
 }
 
 .main__block_right_block{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+p{
+    color: #EC7979;
 }
 
 .main__block_right_block_Message{
-
+    width: 370px;
+    padding-top: 50px;
+    border-bottom: 3px solid #BDBDBD;
+    padding-bottom: 16px;
 }
 .main__block_right_button{
+    display: flex;
+    justify-content:center;
+
+    align-content: center;
+    align-items: center;
+    height: 60px;  
+    
+    background-color: #EC7979;
+    border-radius:0 0 10px 10px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
 }
