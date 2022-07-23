@@ -54,30 +54,17 @@
 							TRY YOUR <p>  FREE  </p> TRIAL TODAY
 						</div>
 						<div class="main__block_right_block">
-							<div class="main__block_right_block_Message">
-								<form>
-									<input type="text" placeholder="Name">
-								</form>
-							</div>
-							<div class="main__block_right_block_Message">
-								<form>
-									<input type="text" placeholder="Email">
-								</form>
-							</div>
-							<div class="main__block_right_block_Message">
-								<form>
-									<input type="Password" placeholder="Password">
-								</form>
-							</div>
-							
-						</div>
-						<div class="main__block_right_button">
-							Get Started
+							<form class="main__block_right_block_Message">
+								<input type="text" placeholder="Name" style="border-bottom: 3px solid #BDBDBD; width: 370px;">
+								<input type="text" placeholder="Email" style="border-bottom: 3px solid #BDBDBD; width: 370px;">
+								<input type="Password" placeholder="Password" style="border-bottom: 3px solid #BDBDBD; width: 370px;">
+								<input type="button" value="Get Started" class="main__block_right_button" style="width: 470px;">
+							</form>	
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>	
+			</div>	
+		</div>
 
 		<div class="socialmedia">
 			<div class="socialmedia__block">
@@ -192,6 +179,7 @@
 				<div class="pricing__text_name">
 					PRICING OPTIONS
 				</div>
+				<div class="pricing__text_line"></div>
 				<div class="pricing__text_paragraph">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</div>
@@ -336,32 +324,14 @@
 			<div class="contacts__text">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 			</div>
-			<div class="blocfortext">
-				<div class="info">
-					<div class="contacts__block_Message">
-						<form>
-							<input type="text" placeholder="Name">
-						</form>
-					</div>
-					<div class="contacts__block_Message">
-						<form>
-							<input type="text" placeholder="Email">
-						</form>
-					</div>
-					<div class="contacts__block_Message">
-						<form>
-							<input type="Password" placeholder="Password">
-						</form>
-					</div>
-				</div>
-				<div class="contacts__block_Message">
-					<form>
-						<input type="text" placeholder="Message">
-					</form>
-				</div>
-			</div>
-			<div class="contacts__button">
-				Send Message
+			<div class="blockfortext">
+				<form class="blockfortext__form">
+					<input type="text" placeholder="Name" class="contacts__block_Message" style="margin-right: 30px;">
+					<input type="text" placeholder="Email" class="contacts__block_Message" style="margin-right: 30px;">
+					<input type="Password" placeholder="Password" class="contacts__block_Message" style="margin-right: 30px;">
+					<textarea placeholder="Message" class="contacts__block_Message" style="padding-bottom: 183px;"></textarea>	
+					<input type="button" id="SendMessage" value="Send Message" style="position:relative; top: 200px; left: -770px; ">
+				</form>
 			</div>
 		</div>
 	</body>

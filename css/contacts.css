@@ -38,6 +38,7 @@
     line-height: 21px;
 
     color: #86878B;
+
 }
 
 .contacts__block_Message{
@@ -47,8 +48,8 @@
     border-bottom: 2px solid #BDBDBD;
 }
 
-.contacts__button{
-    height: 58px;
+#SendMessage{
+        height: 58px;
     width: 370px;
 
     background: #EC7979;
@@ -64,13 +65,25 @@
     justify-content: center;
 
     margin-top: 50px;
+    margin-bottom: 50px;
 
     color: #FFFFFF;
     
 }
-.blocfortext{
-    width: 100%;
+
+.blockfortext{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
+    height: 350px;
+
+
 }
+
+.blockfortext__form{
+    display: flex;
+    width: 1170px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 300px;}

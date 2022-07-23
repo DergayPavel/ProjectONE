@@ -3,6 +3,8 @@
     height: 445px;
 
     background-image: url(../icon/backgraund.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 
     display: flex;
     justify-content: center;

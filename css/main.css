@@ -9,12 +9,16 @@
     display: flex;
     justify-content:space-around;
 }
+
 .BG{
     background: url("../icon/mainBG.png") no-repeat; 
-    opacity: .8;
-    background-size: 100%;
 
+    background-size: 100%;
+    height: 1026px;
+    width: 100%;
+    background-size: cover;
 }
+
 .main__block{
     height: 600px;
 
@@ -99,15 +103,22 @@
 }
 
 .main__block_right{
-    display: flex;
-    flex-direction: column;
     width: 470px;
-
+    height: 500px;
     background: #FFFFFF;
     border-radius: 10px;
-    height: 500px;
-
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
+
+}
+
+.main__block_right_block_Message{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 315px;
+    align-items: center;
 }
 
 .main__block_right_name{
@@ -129,22 +140,10 @@
 
 }
 
-.main__block_right_block{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-}
 p{
     color: #EC7979;
 }
 
-.main__block_right_block_Message{
-    width: 370px;
-    padding-top: 50px;
-    border-bottom: 3px solid #BDBDBD;
-    padding-bottom: 16px;
-}
 .main__block_right_button{
     display: flex;
     justify-content:center;
