@@ -49,7 +49,7 @@
 }
 
 #SendMessage{
-        height: 58px;
+    height: 58px;
     width: 370px;
 
     background: #EC7979;
@@ -76,7 +76,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 350px;
-
+    
 
 }
 

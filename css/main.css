@@ -166,3 +166,27 @@ p{
 
     color: #FFFFFF;
 }
+
+input::placeholder{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+}
+textarea::placeholder{
+width: 569px;
+height: 19px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #BDBDBD;
+}

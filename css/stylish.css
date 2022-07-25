@@ -2,14 +2,27 @@
     width: 100%;
     height: 445px;
 
-    background-image: url(../icon/backgraund.png);
-    background-repeat: no-repeat;
+    background-image: url(../icon/backgraund.png) ;
     background-size: 100%;
 
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    z-index: 0;
+} 
+
+.stylish:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    opacity: 1;
+    z-index: -1;
 }
 
 .stylish__name{
@@ -28,7 +41,6 @@
 }
 .stylish__line{
     width: 170px;
-
     border-bottom: 1px solid #FFFFFF;
 }
 
