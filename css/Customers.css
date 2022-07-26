@@ -51,8 +51,8 @@
 .customers_infoblock{
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-    width: 1300px;
+    justify-content:space-between;
+    width: 1171px;
     
     margin-top: 80px;
 }
