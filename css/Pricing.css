@@ -29,6 +29,7 @@
     font-size: 36px;
     align-items: center;
 }
+
 .pricing__text_line {
     border-bottom: 1px solid #EC7979;
     width:170px;
@@ -184,6 +185,178 @@
 
     background: #FFFFFF;
     border: 2px solid #F5F5F5;
-
 }
+
+/* Tabs */
+
+@media (max-width:1024px){
+    .pricing {
+        height: 770px;
+    }
+    
+    .pricing__text {
+        width: 992px;
+    }
+    
+    .pricing__text_name {  
+        height: 120px;
+        font-size: 24px;
+    }
+    
+    .pricing__text_line {
+        width:143px;
+    }
+    
+    .pricing__text_paragraph {
+        font-size: 14px;
+        line-height: 16px;
+
+        padding-top: 32px;
+        padding-bottom: 49px;
+    }
+    
+    .pricing__tariffs {
+        width: 992px;
+        height: 490px;
+    }
+    
+    .pricing__tariffs_one {   
+        width: 317px;
+        height: 452.26px;
+
+        margin-right: 20px;
+    }
+    
+    .pricing__tariffs_two {
+        width: 317px;
+        height: 452.26px;
+    }
+    
+    .pricing__tariffs_three {
+        width: 317px;
+        height: 452.26px;
+
+        margin-left: 20px;
+    }
+    
+    .pricing__tariffs_name {
+        width: 318px;
+        height: 53.20px;
+    }
+    
+    .pricing__tariffs_cash {
+        height: 88.68px;
+        width: 318px;
+    }
+    
+    .pricing__tariffs_status {
+        width: 318px;
+        height: 44.34px;
+    }
+    
+    .pricing__tariffs_Gb {
+        width: 318px;
+        height: 44.34px;
+    }
+    
+}
+
+@media (max-width:320px){
+    .pricing {
+        height: 1480px;
+        width: 100%;
+    }
+    
+    .pricing__text {
+        width: 288px;
+    }
+    
+    .pricing__text_name {  
+        padding-top: 50px;
+    
+        height: 120px;
+        font-size: 24px;
+    }
+    
+    .pricing__text_line {
+        border-bottom: 1px solid #EC7979;
+        width:134px;
+    }
+    
+    .pricing__text_paragraph {
+        font-size: 14px;
+        line-height: 16px;
+
+        padding-top: 24px;
+        padding-bottom: 24px;
+        text-align: center;
+    
+    
+    }
+    
+    .pricing__tariffs {
+        width: 288px;
+        height: 1260px;
+        flex-direction: column;
+    
+    }
+    
+    .pricing__tariffs_one {   
+        width: 288px;
+        height: 400px;
+        margin: 0;
+        margin-bottom: 27px;
+    
+    }
+    
+    .pricing__tariffs_two {
+        width: 288px;
+        height: 400px;
+        margin-bottom: 27px;
+    }
+    
+    .pricing__tariffs_three {
+        width: 288px;
+        height: 400px;
+    
+        margin-left: 0px;
+    }
+    
+    .pricing__tariffs_name {
+        width: 288px;
+        height: 47.06px;
+    
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+    
+    }
+    
+    .pricing__tariffs_cash {
+        width: 288px;
+        height: 78.43px;
+
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .pricing__tariffs_status {
+        width: 288px;
+        height: 39.22px;
+    
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .pricing__tariffs_Gb {
+        width: 288px;
+        height: 39.22px;
+    
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+  }
+
 

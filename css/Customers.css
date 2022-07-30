@@ -85,15 +85,15 @@
     padding-right: 10px;
 }
 .triangle{
-        width: 0;
-        height: 0;
+    width: 0;
+    height: 0;
 
-        border-left: 15px solid transparent;
-        border-right: 15px solid transparent;
-        border-top: 20px solid #E2E2E2;
-        
-        margin-left: 40px;
-        margin-bottom: 40px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+    
+    margin-left: 40px;
+    margin-bottom: 40px;
 }
 
 .customers__massage_author{
@@ -103,8 +103,7 @@
 }
 
 .customers__massage_author_name{
-padding-left: 30px;
-
+    padding-left: 30px;
 }
 
 .customers__massage_author_name_one{
@@ -127,8 +126,6 @@ padding-left: 30px;
     height: 21px;
     width: 270px;
 
-
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -139,5 +136,189 @@ padding-left: 30px;
 
     color: #000000;
 
+}
+
+.customers_menu{
+    display: none;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 105px;
+}
+
+.customers_menu-one{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #86878B;
+    border-radius: 10px;
+
+}
+
+.customers_menu-two{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #86878B;
+    border-radius: 10px;
+    background-color:#86878B ;
+
+
+}
+
+@media (max-width:1024px){
+    .customers{
+        height: 460px;
+    }
+    
+    .customers__name{
+        height: 120px;
+    
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .customers__line{
+        width: 142px;
+        margin-top: 60px;
+    }
+    
+    .customers__text{
+        font-size: 14px;
+        line-height: 16px;
+
+        margin-top:32px;
+    }
+    
+    .customers_infoblock{
+        width: 992px;
+        margin-top: 32px;
+        height: 300px;
+    }
+    
+    .customers__massage{
+        height: 380px;
+        width: 317px;
+    }
+    
+    .customers__massage_text{
+        font-size: 14px;
+        line-height: 16px;
+
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .customers__massage_author_name{
+    padding-left: 22px;
+    }
+    
+    .customers__massage_author_name_one{
+        height: 36px;
+        width: 230.45px;
+
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .customers__massage_author_name_two{
+        height: 16px;
+        width: 231.46px;
+    
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width:320px){
+    .customers{
+        height: 550px;
+        margin-top: 10px;
+    }
+    
+    .customers__name{
+        height: 120px;
+
+        font-size: 24px;
+        line-height: 28.18px;
+    
+    }
+    
+    .customers__line{
+        width: 134px;
+        margin-top: 20px;
+    }
+    
+    .customers__text{
+        font-size: 14px;
+        line-height: 16.44px;
+
+        margin-top: 24px;
+        
+    }
+    
+    .customers_infoblock{
+        width: 288px;
+        margin-top: 24px;
+        justify-content: center;
+    }
+    
+    .customers__massage{
+        height: 380px;
+        width: 280px;
+    }
+
+    .customers__massage:last-child{
+        display: none;
+    }
+
+    .customers__massage:first-child{
+        display: none;
+    }
+    
+    .customers__massage_text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.44px;
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .customers__massage_author{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    #manager__img{
+        width: 57px;
+        height: 57px;
+    }
+    
+    .customers__massage_author_name{
+    padding-left: 22px;
+    }
+    
+    .customers__massage_author_name_one{
+        height: 36px;
+        width: 204px;
+
+        font-size: 14px;
+        line-height: 19px;
+    }
+    
+    .customers__massage_author_name_two{
+        height: 15px;
+        width: 205px;
+    
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .customers_menu{
+        display: flex;
+    }
 }
 

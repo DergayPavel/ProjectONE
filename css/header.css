@@ -38,6 +38,47 @@ header{
     text-transform: capitalize;
     
     color: #FFFFFF;
+}
+.table{
+    width: 18px;
+    height: 24px;
+    display: none; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+.table__line{
+    width: 24px;
+    height: 4px;
+    background-color: white;
+    display: none;
+}
 
+/*  Tablet */
 
+@media (max-width:320px){
+    header{
+        height: 56px;
+    }
+    
+    .logo{
+    width: 130px;
+    height: 56px;
+
+    }
+    #logoimg{
+    width: 130px;
+    height: 56px;
+    }
+    
+    .menu{
+        display: none;
+    }
+
+    .table{
+        display: flex; 
+    }
+    .table__line{
+        display: flex;
+    }
+    
 }

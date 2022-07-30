@@ -17,10 +17,11 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<header>
 		<div class="logo">
-			<img src="icon/logo.png" alt="Logo" style="width:183px; height:75px">
+			<img src="icon/logo.png" alt="Logo" id="logoimg">
 		</div>
 		<div class="menu">
 			<div class="branch">Features</div>
@@ -29,6 +30,12 @@
 			<div class="branch">Reviews</div>
 			<div class="branch">Contact</div>
 		</div>
+		<div class="table">
+			<div class="table__line"></div>
+			<div class="table__line"></div>
+			<div class="table__line"></div>
+		</div>
+
 	</header>
 	<body>
 		<div class="BG">
@@ -55,10 +62,10 @@
 						</div>
 						<div class="main__block_right_block">
 							<form class="main__block_right_block_Message">
-								<input type="text" placeholder="Name" style="border-bottom: 3px solid #BDBDBD; width: 370px;">
-								<input type="text" placeholder="Email" style="border-bottom: 3px solid #BDBDBD; width: 370px;">
-								<input type="Password" placeholder="Password" style="border-bottom: 3px solid #BDBDBD; width: 370px;">
-								<input type="button" value="Get Started" class="main__block_right_button" style="width: 470px;">
+								<input type="text" placeholder="Name" class="style__input">
+								<input type="text" placeholder="Email" class="style__input">
+								<input type="Password" placeholder="Password" class="style__input">
+								<input type="button" value="Get Started" class="main__block_right_button">
 							</form>	
 						</div>
 					</div>
@@ -76,39 +83,41 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
 					</div>
 				</div>	
-				<div class="socialmedia__icon">
-					<img src="icon/Link1.png" alt="Facebook">
-				</div>
-				<div class="socialmedia__icon">
-					<img src="icon/Link2.png" alt="Twitter">
-				</div>
-				<div class="socialmedia__icon">
-					<img src="icon/Link3.png" alt="LinkedIn">
-				</div>
-				<div class="socialmedia__icon">
-					<img src="icon/Link4.png" alt="Pinterest">
-				</div>
-				<div class="socialmedia__icon">
-					<img src="icon/Link5.png" alt="Instagram">
-				</div>
-				<div class="socialmedia__icon">
-					<img src="icon/Link6.png" alt="GitHub">
-				</div>
-				<div class="socialmedia__icon">
-					<img src="icon/Link7.png" alt="RSS">
+				<div class="socialmedia__icons">
+					<div class="socialmedia__icon">
+						<img src="icon/Link1.png" alt="Facebook" class="socialmedia__iconstyle">
+					</div>
+					<div class="socialmedia__icon">
+						<img src="icon/Link2.png" alt="Twitter" class="socialmedia__iconstyle">
+					</div>
+					<div class="socialmedia__icon">
+						<img src="icon/Link3.png" alt="LinkedIn" class="socialmedia__iconstyle">
+					</div>
+					<div class="socialmedia__icon">
+						<img src="icon/Link4.png" alt="Pinterest" class="socialmedia__iconstyle">
+					</div>
+					<div class="socialmedia__icon">
+						<img src="icon/Link5.png" alt="Instagram" class="socialmedia__iconstyle">
+					</div>
+					<div class="socialmedia__icon">
+						<img src="icon/Link6.png" alt="GitHub" class="socialmedia__iconstyle">
+					</div>
+					<div class="socialmedia__icon">
+						<img src="icon/Link7.png" alt="RSS" class="socialmedia__iconstyle">
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="tabs-block">
 			<div class="menutabs">
-				<div class="menu__threetabs" style="border-top:1px solid #C6CBCD; border-right:1px solid #C6CBCD; border-left:1px solid #C6CBCD;">
+				<div class="menu__threetabs1">
 					TAB 1
 				</div>
-				<div class="menu__threetabs" style="border-bottom:1px solid #C6CBCD;">
+				<div class="menu__threetabs2">
 					TAB 2
 				</div>
-				<div class="menu__threetabs" style="border-bottom:1px solid #C6CBCD; padding-right: 500px;">
+				<div class="menu__threetabs3">
 					TAB 3
 				</div>
 			</div>
@@ -130,7 +139,7 @@
 					</div>
 				</div>
 				<div class="tabs__icon">
-					<img src="icon/4.png" alt="картинка">
+					<img src="icon/4.png" alt="картинка" id="img1">
 				</div>
 			</div>
 		</div>
@@ -256,7 +265,7 @@
 					</div>
 					<div class="triangle"></div>
 					<div class="customers__massage_author"> 
-						<img src="icon/manager1.png" alt="first manager">
+						<img src="icon/manager1.png" alt="first manager" id="manager__img">
 						<div class="customers__massage_author_name">
 							<div class="customers__massage_author_name_one">
 								Davis Rhiel Madsen
@@ -273,7 +282,7 @@
 					</div>
 					<div class="triangle"></div>
 					<div class="customers__massage_author"> 
-						<img src="icon/manager3.png" alt="second manager">
+						<img src="icon/manager3.png" alt="second manager" id="manager__img">
 						<div class="customers__massage_author_name">
 							<div class="customers__massage_author_name_one">
 								Jaydon Rosser
@@ -290,7 +299,7 @@
 					</div>
 					<div class="triangle"></div>
 					<div class="customers__massage_author"> 
-						<img src="icon/manager2.png" alt="third manager">
+						<img src="icon/manager2.png" alt="third manager" id="manager__img">
 						<div class="customers__massage_author_name">
 							<div class="customers__massage_author_name_one">
 								Cooper Dorwart
@@ -302,6 +311,11 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="customers_menu">
+				<div class="customers_menu-one"></div>
+				<div class="customers_menu-two"></div>
+				<div class="customers_menu-one"></div>
 			</div>
 		</div>
 
@@ -328,24 +342,26 @@
 			</div>
 			<div class="blockfortext">
 				<form class="blockfortext__form">
-					<input type="text" placeholder="Name" class="contacts__block_Message" style="margin-right: 30px;">
-					<input type="text" placeholder="Email" class="contacts__block_Message" style="margin-right: 30px;">
-					<input type="Password" placeholder="Password" class="contacts__block_Message" style="margin-right: 30px;">
-					<textarea placeholder="Message" class="contacts__block_Message" style="padding-bottom: 183px; overflow: hidden; padding-top: 0%; position: relative; top: 40px;"></textarea>	
-					<input type="button" id="SendMessage" value="Send Message" style="position:relative; top: 200px; left: -770px;">
+					<div class="blockfortext__form-input">
+						<input type="text" placeholder="Name" class="contacts__block_Message" >
+						<input type="text" placeholder="Email" class="contacts__block_Message">
+						<input type="Password" placeholder="Password" class="contacts__block_Message">
+						<textarea placeholder="Message" class="contacts__block_Message" style="padding-bottom: 190px; overflow: hidden; padding-top: 0%; position: relative; top: 32px;"></textarea>	
+					</div>
+					<input type="button" id="SendMessage" value="Send Message" class="contacts__button">
 				</form>
 			</div>
 		</div>
 	</body>
 	<footer>
 		<div class="links">
-			<img src="icon/Link1.png" alt="Facebook">
-			<img src="icon/Link2.png" alt="Twitter">
-			<img src="icon/Link3.png" alt="LinkedIn">
-			<img src="icon/Link4.png" alt="Pinterest">
-			<img src="icon/Link5.png" alt="Instagram">
-			<img src="icon/Link6.png" alt="GitHub">
-			<img src="icon/Link7.png" alt="RSS">
+			<img src="icon/Link1.png" alt="Facebook" class="links_img">
+			<img src="icon/Link2.png" alt="Twitter" class="links_img">
+			<img src="icon/Link3.png" alt="LinkedIn" class="links_img">
+			<img src="icon/Link4.png" alt="Pinterest" class="links_img">
+			<img src="icon/Link5.png" alt="Instagram" class="links_img">
+			<img src="icon/Link6.png" alt="GitHub" class="links_img">
+			<img src="icon/Link7.png" alt="RSS" class="links_img">
 		</div>
 		<div class="disiner">
 			© 2015 Axure Themes

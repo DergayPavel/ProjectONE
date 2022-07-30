@@ -78,3 +78,73 @@
 
     color: #FFFFFF;
 }
+
+@media (max-width:1024px){
+    .stylish{
+        height: 358px;
+    } 
+    
+    .stylish__name{
+        height: 120px;
+
+        font-size: 24px;
+    }
+
+    .stylish__line{
+        width: 142px;
+    }
+    
+    .stylish__text{
+        height: 16px;
+
+        font-size: 14px;
+        line-height: 16px;
+
+        margin-top: 32px;
+    }
+    
+    .stylish__download{
+        width: 318px;
+        height: 58px;
+    
+        line-height: 24.5px;
+    
+        margin-top: 32px;
+    }
+}
+
+@media (max-width:320px){
+    .stylish{
+        height: 358px;
+    } 
+    
+    .stylish:after{
+    }
+    
+    .stylish__name{
+        height: 120px;
+
+        font-size: 24px;
+    }
+    .stylish__line{
+        width: 134px;
+    }
+    
+    .stylish__text{
+        height: 48px;
+        width: 288px;
+        text-align: center;
+    
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+    
+    .stylish__download{
+        width: 287px;
+        height: 50px;
+
+        line-height: 24.51px;
+
+        margin-top: 66px;
+    }
+}

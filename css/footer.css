@@ -26,3 +26,28 @@ footer{
 
     color: rgba(255, 255, 255, 0.5);
 }
+
+@media (max-width:320px){
+    footer{
+        height: 164px;
+        width: 100%;
+
+        justify-content: space-evenly;
+    }
+    
+    .links{
+        width: 288px;
+        height: 42px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .links_img{
+        width: 26px;
+        height: 26px;
+    }
+    
+    .disiner{
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+}
