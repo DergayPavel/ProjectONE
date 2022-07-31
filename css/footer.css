@@ -27,7 +27,7 @@ footer{
     color: rgba(255, 255, 255, 0.5);
 }
 
-@media (max-width:320px){
+@media (max-width:650px){
     footer{
         height: 164px;
         width: 100%;

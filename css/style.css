@@ -40,10 +40,6 @@
   color: #000000;
 justify-content: space-evenly;}
 
-.awesome__column {
-  /* padding: 0px 15px; */
-}
-
 .title {
   font-size: 34px;
   font-weight: 700;
@@ -101,8 +97,32 @@ justify-content: space-evenly;}
   text-align: center;
   width: 350px; }
 
+
+@media (min-width:1100px) and (max-width:1190px){
+    .awesome__body {
+      width: 990px;
+    }
+
+    .awesome__text {
+      font-size: 17px;
+      line-height: 21px;
+    }
+    
+    .awesome__row {
+      width: 990px;
+  }
+
+    .item-awesome__title {
+      font-size: 23px;
+    }
+    
+    .item-awesome__text {
+      width: 300px; }
+    
+  }
+
 /* Tablet */
-  @media (max-width:1024px){
+  @media (min-width:1024px) and (max-width:1100px){
     .awesome{
       padding-bottom: 50px;
       padding-top: 100px;
@@ -147,8 +167,72 @@ justify-content: space-evenly;}
     }
 }
 
+@media (min-width:650px) and (max-width:1024px){
+  .awesome{
+    padding-bottom: 40px;
+    padding-top: 80px;
+  }
+  
+  .awesome__body {
+    width: 288px;
+    margin: 0px auto;
+  }
+  
+  .awesome__header {
+    margin: 0px 0px 65px 0px; }
+  
+  .awesome__title {
+    margin: 0px 0px 30px 0px; }
+  
+  .awesome__text {
+    font-size: 13px;
+    line-height: 15px;}
+  
+  .awesome__row {
+    flex-direction: column;
+    width: 288px;
+    justify-content: space-evenly;
+  }
+  
+  .awesome__column {
+    margin-bottom: 40px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    padding-bottom: 60px;
+  }
+  
+  .title:after {
+    width: 134px;
+    left: 165px;
+    margin: 0px 0px 0px -85px; }
+  
+  .item-awesome__icon {
+    margin-bottom: 40px;
 
-@media (max-width:320px){
+  } 
+  
+  .item-awesome__title {
+    font-size: 18px;
+    
+    line-height: 25px;
+    margin: 0px 0px 35px 0px;
+    font-weight: 700;
+    }
+  
+  .item-awesome__text {
+    line-height: 16px;
+    font-size: 14px;
+    width: 288px; }
+  
+}
+
+
+@media (max-width:650px){
   .awesome{
     padding-bottom: 40px;
     padding-top: 80px;

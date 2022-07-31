@@ -187,9 +187,56 @@
     border: 2px solid #F5F5F5;
 }
 
-/* Tabs */
+@media (min-width:1100px) and (max-width:1190px){
+    .pricing__text {
+        width: 990px;
+    }
+    
+    .pricing__tariffs {
+        width: 990px;
+        height: 530px;
+    }
+    
+    .pricing__tariffs_one {   
+        width: 310px;
+        height: 510px;
 
-@media (max-width:1024px){
+        margin-right: 30px;
+    
+    }
+    
+    .pricing__tariffs_two {
+        width: 310px;
+        height: 510px;
+    }
+    
+    .pricing__tariffs_three {
+        width: 310px;
+        height: 510px;
+
+        margin-left: 30px;
+    }
+    
+    .pricing__tariffs_name {
+        width: 310px;
+        height: 60px;
+    }
+    
+    .pricing__tariffs_cash {
+        width: 310px;
+    }
+    
+    .pricing__tariffs_status {
+        width: 310px;
+    }
+    
+    .pricing__tariffs_Gb {
+        width: 310px;
+        height: 50px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1100px){
     .pricing {
         height: 770px;
     }
@@ -261,7 +308,83 @@
     
 }
 
-@media (max-width:320px){
+@media (min-width:650px) and (max-width:1024px){
+    .pricing {
+        height: 1750px;
+    }
+    
+    .pricing__text {
+        width: 630px;
+    }
+    
+    .pricing__text_name {  
+        height: 120px;
+        font-size: 24px;
+    }
+    
+    .pricing__text_line {
+        width:143px;
+    }
+    
+    .pricing__text_paragraph {
+        font-size: 14px;
+        line-height: 16px;
+
+        padding-top: 32px;
+        padding-bottom: 49px;
+    }
+    
+    .pricing__tariffs {
+        width: 320px;
+        height: 1600px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .pricing__tariffs_one {   
+        width: 317px;
+        height: 452.26px;
+
+        margin-right: 0px;
+    }
+    
+    .pricing__tariffs_two {
+        width: 317px;
+        height: 452.26px;
+        align-self: center;
+    }
+    
+    .pricing__tariffs_three {
+        width: 317px;
+        height: 452.26px;
+
+        margin-left: 0px;
+    }
+    
+    .pricing__tariffs_name {
+        width: 318px;
+        height: 53.20px;
+    }
+    
+    .pricing__tariffs_cash {
+        height: 88.68px;
+        width: 318px;
+    }
+    
+    .pricing__tariffs_status {
+        width: 318px;
+        height: 44.34px;
+    }
+    
+    .pricing__tariffs_Gb {
+        width: 318px;
+        height: 44.34px;
+    }
+    
+}
+
+@media (max-width:650px){
     .pricing {
         height: 1480px;
         width: 100%;
@@ -357,6 +480,6 @@
         line-height: 16px;
     }
     
-  }
+}
 
 

@@ -88,7 +88,29 @@
     height: 300px;
 }
 
-    @media (max-width:1024px){
+@media (min-width:1100px) and (max-width:1190px){
+    .contacts__block_Message{
+        width: 471px;
+    }
+    
+    .blockfortext__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    } 
+    
+    .blockfortext__form-input{
+        display: flex;
+        width: 990px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: 300px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1100px){
         .contacts{
             height: 620px;
         }
@@ -160,7 +182,67 @@
         
 }
 
-@media (max-width:320px){
+@media (min-width:650px) and (max-width:1024px){
+    .contacts{
+        height: 810px;
+        width: 100%;
+    }
+    
+    .contacts__name{
+        height: 120px;
+
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .contacts__line{
+        width: 134px;
+
+    }
+    
+    .contacts__text{
+        height: 32px;
+        margin-top: 24px;
+
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .contacts__block_Message{
+        width: 288px;
+        padding-top: 10px;
+        margin-right: 0;
+    }
+    .blockfortext{
+        width: 288px;
+        height: 750px;
+    }
+    
+    #SendMessage{
+        height: 50px;
+        width: 288px;
+
+        line-height: 24.51px;
+
+        margin-bottom:40px;
+
+        position:static;
+    }
+    
+    .blockfortext__form{
+        width: 288px;
+        height: 650px;
+    } 
+    
+    .blockfortext__form-input{
+        height: 500px;
+        width: 288px;
+        }
+}
+
+@media (max-width:650px){
     .contacts{
         height: 810px;
         width: 100%;

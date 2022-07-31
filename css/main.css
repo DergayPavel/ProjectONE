@@ -201,7 +201,46 @@ textarea::placeholder{
 
 /*  Tablet */
 
-@media (max-width:1024px){
+@media (min-width:1100px) and (max-width:1190px){
+    .main{
+        height: 950px;
+    }
+    
+    .BG{
+        height: 950px;
+    }
+
+    .main__block_left{
+        width: 610px;
+    }
+
+    .main__block_left_name{
+        width: 610px;
+    }
+    
+    .main__block_left_text{
+        font-size: 17px;
+        line-height: 20px;
+    }
+    
+    .main__block_left_button{
+        width: 265px;
+    }
+    
+    .main__block_right{
+        width: 465px;
+    }
+    
+    .main__block_right_name{
+        width: 465px;
+    }
+    
+    .main__block_right_button{ 
+        width: 465px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1100px){
     .main{
         height: 768px;
     }
@@ -273,7 +312,43 @@ textarea::placeholder{
 
 }
 
-@media (max-width:320px){
+@media (min-width:650px) and (max-width:1024px){
+    .main{
+        height: 1020px;
+    }
+    
+    .BG{
+        height: 1020px;
+    }
+    
+    .main__block{
+        flex-direction: column;
+        height: 1000px;
+        align-items: center;
+    }
+
+    .main__block_left{
+        width: 454.36px;
+        align-items: center;
+    }
+    
+    .main__block_left_logo{
+        width: 183px;
+    }
+    
+    .main__block_left_name{
+        height: 126px;
+        width: 454px;
+    
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+    }
+    
+
+}
+
+@media (max-width:650px){
     .main{
         height: 1005px;
         flex-direction: column;   
