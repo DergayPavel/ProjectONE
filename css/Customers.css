@@ -277,7 +277,7 @@
 
 @media (min-width:650px) and (max-width:1024px){
     .customers{
-        height: 460px;
+        height: 600px;
     }
     
     .customers__name{
@@ -300,13 +300,13 @@
     }
     
     .customers_infoblock{
-        width: 388px;
+        width: 300px;
         margin-top: 24px;
         justify-content: center;
     }
     
     .customers__massage{
-        height: 380px;
+        height: 300px;
         width: 380px;
     }
 
@@ -367,7 +367,7 @@
 
 @media (max-width:650px){
     .customers{
-        height: 550px;
+        height: 600px;
         margin-top: 10px;
     }
     
@@ -399,7 +399,7 @@
     }
     
     .customers__massage{
-        height: 380px;
+        height: 350px;
         width: 280px;
     }
 
